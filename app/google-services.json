@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "508834376573",
+    "project_id": "doshkify",
+    "storage_bucket": "doshkify.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508834376573:android:d8a2e2c39b62b7c3453a14",
+        "android_client_info": {
+          "package_name": "com.yablunin.doshkify"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxMJtVaWiRBoDQJw7ke9Jj53-P5LL9HTc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

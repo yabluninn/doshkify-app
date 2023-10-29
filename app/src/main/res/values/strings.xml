@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Doshkify</string>
+    <!--    Drawer main menu strings-->
+    <string name="main_menu_ad">My advertisements</string>
+    <string name="main_menu_ad_my">My advertisements</string>
+    <string name="main_menu_ad_cars">Cars</string>
+    <string name="main_menu_ad_pc">PC and laptops</string>
+    <string name="main_menu_ad_phones">Smartphones</string>
+    <string name="main_menu_ad_electronics">Electronics</string>
+    <string name="main_menu_account">Account</string>
+    <string name="main_menu_account_sign_up">Sign up</string>
+    <string name="main_menu_account_log_in">Log in</string>
+    <string name="main_menu_account_log_out">Log out</string>
+    <string name="main_menu_not_signup">Sign up or log in</string>
+
+    <!--    Sign dialog-->
+    <string name="sign_dialog_title">Create account</string>
+    <string name="log_in_dialog_title">Log in</string>
+    <string name="sign_dialog_email_hint">E-mail</string>
+    <string name="sign_dialog_password_hint">Password</string>
+    <string name="sign_dialog_forgot_password">Forgot password</string>
+    <string name="sign_dialog_button">Sign up</string>
+    <string name="log_in_dialog_button">Log in</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+</resources>

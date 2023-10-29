@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="@string/main_menu_ad">
+        <menu>
+            <item
+                android:id="@+id/main_menu_my_ads"
+                android:icon="@drawable/ic_category"
+                android:title="@string/main_menu_ad_my" />
+            <item
+                android:id="@+id/main_menu_cars_ads"
+                android:icon="@drawable/ic_car"
+                android:title="@string/main_menu_ad_cars" />
+            <item
+                android:id="@+id/main_menu_pc_ads"
+                android:icon="@drawable/ic_pc"
+                android:title="@string/main_menu_ad_pc" />
+            <item
+                android:id="@+id/main_menu_phones_ads"
+                android:icon="@drawable/ic_phone"
+                android:title="@string/main_menu_ad_phones" />
+            <item
+                android:id="@+id/main_menu_electronics_ads"
+                android:icon="@drawable/ic_electronics"
+                android:title="@string/main_menu_ad_electronics" />
+        </menu>
+
+    </item>
+
+    <item android:title="@string/main_menu_account">
+        <menu>
+            <item
+                android:id="@+id/main_menu_sign_up"
+                android:icon="@drawable/ic_user_plus"
+                android:title="@string/main_menu_account_sign_up" />
+            <item
+                android:id="@+id/main_menu_log_in"
+                android:icon="@drawable/ic_login"
+                android:title="@string/main_menu_account_log_in" />
+            <item
+                android:id="@+id/main_menu_log_out"
+                android:icon="@drawable/ic_logout"
+                android:title="@string/main_menu_account_log_out" />
+        </menu>
+
+    </item>
+
+</menu>
