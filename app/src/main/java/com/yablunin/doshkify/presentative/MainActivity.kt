@@ -1,24 +1,18 @@
-package com.yablunin.doshkify
+package com.yablunin.doshkify.presentative
 
-import android.annotation.SuppressLint
-import android.graphics.Color
-import android.graphics.drawable.Drawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.os.Parcel
-import android.os.Parcelable
 import android.view.MenuItem
 import android.widget.ImageView
 import android.widget.TextView
-import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.widget.Toolbar
 import androidx.core.view.GravityCompat
 import com.google.android.material.navigation.NavigationView.OnNavigationItemSelectedListener
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
-import com.yablunin.doshkify.data.AuthHandler
+import com.yablunin.doshkify.R
 import com.yablunin.doshkify.databinding.ActivityMainBinding
-import com.yablunin.doshkify.dialogs.DialogHandler
+import com.yablunin.doshkify.presentative.dialogs.DialogHandler
 
 class MainActivity() : AppCompatActivity(), OnNavigationItemSelectedListener{
     private lateinit var binding: ActivityMainBinding
@@ -69,10 +63,10 @@ class MainActivity() : AppCompatActivity(), OnNavigationItemSelectedListener{
 
             }
             R.id.main_menu_sign_up -> {
-                dialogHandler.createSignDialog(DialogHandler.SIGN_UP_DIALOG)
+                dialogHandler.showSignDialog(DialogHandler.SIGN_UP_DIALOG)
             }
             R.id.main_menu_log_in -> {
-                dialogHandler.createSignDialog(DialogHandler.LOG_IN_DIALOG)
+                dialogHandler.showSignDialog(DialogHandler.LOG_IN_DIALOG)
             }
             R.id.main_menu_log_out -> {
                 updateUi(null)

@@ -1,7 +1,7 @@
 package com.yablunin.doshkify.data
 
 import com.google.firebase.auth.FirebaseUser
-import com.yablunin.doshkify.MainActivity
+import com.yablunin.doshkify.presentative.MainActivity
 
 class AuthHandler(_activity: MainActivity) {
     private val activity = _activity

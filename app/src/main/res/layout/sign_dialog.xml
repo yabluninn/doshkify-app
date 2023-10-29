@@ -21,11 +21,24 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/sign_dialog_empty_mail_error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/error_enter_correct_email"
+        android:textColor="@color/red"
+        android:textSize="18sp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sign_dialog_title" />
+
     <EditText
         android:id="@+id/sign_dialog_email_input"
         android:layout_width="match_parent"
         android:layout_height="55dp"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="16dp"
         android:background="@drawable/custom_input"
         android:drawableStart="@drawable/custom_mail_icon"
         android:drawablePadding="10dp"
@@ -39,13 +52,26 @@
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sign_dialog_title" />
+        app:layout_constraintTop_toBottomOf="@+id/sign_dialog_empty_mail_error" />
+
+    <TextView
+        android:id="@+id/sign_dialog_empty_password_error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/error_enter_correct_password"
+        android:textColor="@color/red"
+        android:textSize="18sp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sign_dialog_email_input" />
 
     <EditText
         android:id="@+id/sign_dialog_password_input"
         android:layout_width="match_parent"
         android:layout_height="55dp"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="16dp"
         android:background="@drawable/custom_input"
         android:drawableStart="@drawable/custom_password_icon"
         android:drawablePadding="10dp"
@@ -59,7 +85,7 @@
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sign_dialog_email_input" />
+        app:layout_constraintTop_toBottomOf="@+id/sign_dialog_empty_password_error" />
 
     <Button
         android:id="@+id/sign_dialog_button"

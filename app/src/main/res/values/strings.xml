@@ -24,4 +24,7 @@
 
     <string name="open">Open</string>
     <string name="close">Close</string>
+
+    <string name="error_enter_correct_email">Enter correct email!</string>
+    <string name="error_enter_correct_password">Enter correct password!</string>
 </resources>
