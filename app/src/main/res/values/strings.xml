@@ -21,10 +21,16 @@
     <string name="sign_dialog_forgot_password">Forgot password</string>
     <string name="sign_dialog_button">Sign up</string>
     <string name="log_in_dialog_button">Log in</string>
+    <string name="sign_dialog_sign_in_with_google">Sign up with Google</string>
+    <string name="sign_dialog_log_in_with_google">Log in with Google</string>
 
     <string name="open">Open</string>
     <string name="close">Close</string>
 
     <string name="error_enter_correct_email">Enter correct email!</string>
     <string name="error_enter_correct_password">Enter correct password!</string>
+    <string name="error_email_already_in_use">This email address already in use!</string>
+    <string name="error_invalid_email">Invalid email, try again!</string>
+    <string name="error_weak_password">Weak password (Min length: 7)!</string>
+    <string name="error_wrong_password">Wrong password!</string>
 </resources>

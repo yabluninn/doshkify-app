@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="30dp"
-    android:background="@drawable/custom_button"
+    android:background="@drawable/custom_dialog"
     >
 
     <TextView
@@ -101,6 +101,22 @@
         tools:layout_editor_absoluteX="40dp" />
 
     <Button
+        android:id="@+id/sign_dialog_google_sign_in_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:background="@drawable/custom_button"
+        android:text="@string/sign_dialog_sign_in_with_google"
+        android:textAllCaps="false"
+        android:textColor="@color/app_base"
+        android:textSize="24sp"
+        android:drawableStart="@drawable/googleg_standard_color_18"
+        app:layout_constraintTop_toBottomOf="@+id/sign_dialog_button"
+        tools:layout_editor_absoluteX="40dp" />
+
+    <Button
         android:id="@+id/sign_dialog_forgot_password_button"
         android:layout_width="match_parent"
         android:layout_height="50dp"
@@ -111,7 +127,7 @@
         android:textColor="@color/app_base"
         android:textSize="24sp"
         android:visibility="gone"
-        app:layout_constraintTop_toBottomOf="@+id/sign_dialog_button"
+        app:layout_constraintTop_toBottomOf="@+id/sign_dialog_google_sign_in_button"
         tools:layout_editor_absoluteX="40dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

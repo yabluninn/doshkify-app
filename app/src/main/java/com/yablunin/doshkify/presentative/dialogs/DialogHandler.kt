@@ -12,13 +12,9 @@ class DialogHandler(_activity: MainActivity) {
     }
 
     private val activity = _activity
-
     private val signDialog = SignDialog(activity)
 
     fun showSignDialog(dialogId: Int){
         signDialog.createSignDialog(dialogId)
     }
-
-
-
 }

@@ -12,7 +12,20 @@
           "package_name": "com.yablunin.doshkify"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "508834376573-been12id49vlmqg15mif3h50m81rdblj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yablunin.doshkify",
+            "certificate_hash": "5d1ad6a176a7cce077fb6b08043d25fd2fee0315"
+          }
+        },
+        {
+          "client_id": "508834376573-0pq42sk28j6kubvb9g3j5j29r2ptfdcm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyDxMJtVaWiRBoDQJw7ke9Jj53-P5LL9HTc"
@@ -20,7 +33,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "508834376573-0pq42sk28j6kubvb9g3j5j29r2ptfdcm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
