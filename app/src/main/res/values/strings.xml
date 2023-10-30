@@ -33,4 +33,9 @@
     <string name="error_invalid_email">Invalid email, try again!</string>
     <string name="error_weak_password">Weak password (Min length: 7)!</string>
     <string name="error_wrong_password">Wrong password!</string>
+    <string name="error_linked_mail">You already have a Google account with this email address. Login first and try again!</string>
+    <string name="error_user_not_found">User not found!</string>
+    <string name="success_email_verification_send">Verification letter send to your email account. Verify and log in!</string>
+    <string name="success_log_in">Welcome back!</string>
+    <string name="success_linked_email">Email successfully linked to your Google account!</string>
 </resources>
